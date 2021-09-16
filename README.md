@@ -97,5 +97,23 @@ To spin up a development environment in the cloud that has all dependencies pre-
 
 ### Docker
 
-This project includes a `Dockerfile`, so you can use it with [Docker](https://docs.docker.com/get-docker/) or [Singularity](https://sylabs.io/guides/2.6/user-guide/quick_start.html).
+This project is Dockerized, so you can run it on any OS within a sandboxed container that already has all dependencies installed.
 
+ - [Install Docker](https://docs.docker.com/get-docker/) if you don't already have it.
+ - Pull the image:
+
+    ```
+    docker pull my-username/my-fancy-analysis
+    ```
+ - Start the container and "shell" into it interactively:
+
+    ```
+    docker run -it my-username/my-fancy-analysis
+    ```
+ - Build the project:
+   
+    ```
+    make
+    ```
+
+You can also [build the image yourself](https://docs.docker.com/engine/reference/commandline/build/) using the included `Dockerfile`, if you prefer.
