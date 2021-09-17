@@ -13,7 +13,7 @@
 
 ## Quick start
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/boothresearch/my-fancy-analysis) and run the command `make`.
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer/) and run the command `make`.
 
 ## Description
 
@@ -93,7 +93,7 @@ This project depends on the following:
 
 To spin up a development environment in the cloud that has all dependencies pre-installed, click on "Open in Gitpod":
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/boothresearch/my-fancy-analysis)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer/)
 
 ### Docker
 
